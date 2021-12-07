@@ -14,7 +14,7 @@ This is NextJS and Storyblok Integration Guide.
 
 1. lib/storyblok.js -> Function Signature of useStoryblok hook and Initialization of Storyblok API.
 2. components/DynamicComponent.js -> Used for Component mapping, used to map storyblok components, to React Components.
-3. The current config, shows the published version, in order to view draft version, please change the following file `pages/index.js` at `Line49` to:
+3. The current config, shows the published version of your story, in order to view draft version, please change the following file `pages/index.js` at `Line 48` to:
 
 ```js
 let sbParams = {
