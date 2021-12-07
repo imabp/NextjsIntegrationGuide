@@ -26,12 +26,10 @@ export default function Home({ story, preview }) {
         </div>
       </header>
 
-
-
       <div className={styles.main}>
-
         <DynamicComponent blok={story.content} />
       </div>
+
       <footer>
         <div
           style={{ width: '100%', display: 'flex', background: 'black', height: "60px", color: 'white', justifyContent: 'center' }}>
