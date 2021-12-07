@@ -3,7 +3,7 @@ import { sbEditable } from "@storyblok/storyblok-editable";
 import styles from '../styles/Home.module.css'
 
 const ProjectCard = ({ blok }) => {
-  return <div {...sbEditable(blok)} >
+  return <div {...sbEditable(blok)} className={styles.card}>
     <a href={blok.link.url} >
       <h2 >{blok.title} &rarr;</h2>
       <p>{blok.description}</p>
